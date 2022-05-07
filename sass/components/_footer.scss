@@ -1,0 +1,17 @@
+.footer {
+    background-color: $secondary-bg-color;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.foot {
+    display: flex;
+    align-items: baseline;
+}
+.footer__title {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-color;
+}
