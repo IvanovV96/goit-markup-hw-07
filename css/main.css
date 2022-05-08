@@ -1285,12 +1285,8 @@ body {
   background-color: rgba(33, 150, 243, 0.9);
 }
 
-.card-set__item:hover .product__overlay {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.card-set__item:focus .product__overlay {
+.product:hover .product__overlay,
+.product:focus .product__overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }

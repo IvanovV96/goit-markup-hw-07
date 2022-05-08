@@ -20,6 +20,7 @@
             0px 4px 4px rgba(0, 0, 0, 0.06),
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
+    
 }
 
 
@@ -48,15 +49,13 @@
     transform: translateY(101%);
     transition: transform 250ms $timing-function;
     background-color: rgba(33, 150, 243, 0.9);
-    .card-set__item:hover & {
+    .product:hover &,
+    .product:focus & {
         transform: translateY(0%);
     }
-    
-    .card-set__item:focus & {
-        transform: translateY(0%);
-    
-    }
+   
 }
+
 
 .product__text {
     display: block;
